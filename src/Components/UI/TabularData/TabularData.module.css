@@ -1,0 +1,11 @@
+.titleButton {
+    min-width : 212px;
+    font-family: fantasy;
+    font-size: 0.96rem;
+    height : 30px;
+}
+
+.nameContainer {
+    width: 310px;
+    min-width: 310px;
+}

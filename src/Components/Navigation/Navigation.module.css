@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Space+Mono&display=swap');
+
+.navbar {
+    min-height: 80px;
+    z-index: 200;
+    background: #43aa8b;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    
+}
+
+.header {
+    font-family: 'Black Ops One', cursive;
+}
+
+.logoButton {
+    background: none;
+    border: 0;
+}
+
+.navItem {
+    font-size: 1.2rem;
+    font-family: 'Space Mono', monospace;
+}
+
+.navHome {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.activeHome {
+    cursor: pointer;
+    color: #fff;
+}
+
+.extraSpace {
+    width: 100%;
+    height: 80px;
+}
+
+
+/* -------------------------------- RESPONSIVE CSS --------------------------------- */
+
+@media (max-width : 356px) {
+    .logo {
+        width: 40px;
+    }
+    .header {
+        font-size: 7vw;
+    }
+}
+
+

@@ -1,0 +1,20 @@
+
+
+/* ------------------- RESPONSIVE CSS ---------------------- */
+
+@media (max-width : 575px) {
+  .coloumnTwo {
+      min-width: 100%;
+      order: -1;
+  }  
+  .coloumnOne {
+      margin-bottom: 8px;
+  }
+}
+
+@media (min-width : 575px) {
+    .searchInputContainer {
+        width: 300px;
+    }
+}
+

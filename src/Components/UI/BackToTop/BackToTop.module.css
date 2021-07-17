@@ -1,0 +1,27 @@
+.backToTop {
+    width: 20px;
+    background: #43aa8b;
+    border-radius: 50%;
+    width : 50px;
+    height: 50px;
+    padding: 7px;
+    font-size: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.backToTopContainer {
+    position: fixed;
+    bottom: 60px;
+    left : 90%;
+    background: none;
+    border: 0;
+    z-index: 500;  
+}
+
+/* ----------------------------- RESPONSIVE CSS ---------------------------------------- */
+
+@media (max-width: 640px) {
+    .backToTopContainer {
+        left: 45%;
+    }
+}

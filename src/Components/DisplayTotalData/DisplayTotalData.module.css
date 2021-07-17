@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.dataContainer {
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0 !important;
+}
+
+.cardOne {
+    background: linear-gradient(to top, #fbf7f4 63%, #ff0a54 63%);
+}
+
+.cardTwo {
+    background: linear-gradient(to top, #fbf7f4 63%, #403d39 63%);
+}
+
+.cardThree {
+    background: linear-gradient(to top, #fbf7f4 63%, #2dc653 63%);
+}
+
+.cardFour {
+    background: linear-gradient(to top, #fbf7f4 63%, #49b6ff 63%);
+}
+
+.header {
+    font-size: 1rem;
+    font-family: 'Frijole', cursive;
+}
+
+.value {
+    font-size: 1.08rem;
+    font-family: 'Poller One', cursive;
+}
+
+.newValue {
+    font-size: 0.9rem;
+    font-family: 'Major Mono Display', monospace;
+}
