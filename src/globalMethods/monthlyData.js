@@ -73,12 +73,12 @@ export const monthlyDataset = (datesArray, cases) => {
     const years = ['20', '21']
 
     // to add new year in the years array
-    const currentYear = new Date().getFullYear().toString()
-    const yearInShort = currentYear.slice(currentYear.length-2, currentYear.length)
-    const findYear = years.find(year => yearInShort === year)
-    if(!findYear) {
-        years.push(yearInShort)
-    }
+//     const currentYear = new Date().getFullYear().toString()
+//     const yearInShort = currentYear.slice(currentYear.length-2, currentYear.length)
+//     const findYear = years.find(year => yearInShort === year)
+//     if(!findYear) {
+//         years.push(yearInShort)
+//     }
 
     let dataset = [] 
     const currentMonth = new Date().getMonth().toString() 
