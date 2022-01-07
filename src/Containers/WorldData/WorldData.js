@@ -17,9 +17,9 @@ const WorldData = () => {
         window.scrollTo(0, 0);
     }, [pathname]);
 
-    const url = 'https://corona.lmao.ninja/v2/all'
+    const url = 'https://disease.sh/v3/covid-19/all'
 
-    const secondURL = 'https://corona.lmao.ninja/v2/historical/all?lastdays=all'
+    const secondURL = 'https://disease.sh/v3/covid-19/historical/all?lastdays=all'
 
     const [todayData, yesterdayData, twoDaysAgoData, historicalData, loading, isError] = useFetchData(url, secondURL, true)
 
