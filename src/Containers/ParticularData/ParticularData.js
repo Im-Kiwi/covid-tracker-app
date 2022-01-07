@@ -44,15 +44,15 @@ const ParticularData = props => {
 
                 // created an object which contains properties used to send request to the server
                 const fetchContinentsData = {
-                    today : axios.get('https://corona.lmao.ninja/v2/continents'),
-                    yesterday : axios.get('https://corona.lmao.ninja/v2/continents?yesterday=true'),
+                    today : axios.get('https://disease.sh/v3/covid-19/continents'),
+                    yesterday : axios.get('https://disease.sh/v3/covid-19/continents?yesterday=true'),
                     twoDaysAgo : axios.get('https://disease.sh/v3/covid-19/continents?twoDaysAgo=true')
                 }
                 const fetchCountriesData = {
-                    today : axios.get('https://corona.lmao.ninja/v2/countries'),
-                    yesterday : axios.get('https://corona.lmao.ninja/v2/countries?yesterday=true'), 
-                    twoDaysAgo : axios.get('https://corona.lmao.ninja/v2/countries?twoDaysAgo=true'),
-                    pastData : axios.get('https://corona.lmao.ninja/v2/historical?lastdays=all')
+                    today : axios.get('https://disease.sh/v3/covid-19/countries'),
+                    yesterday : axios.get('https://disease.sh/v3/covid-19/countries?yesterday=true'), 
+                    twoDaysAgo : axios.get('https://disease.sh/v3/covid-19/countries?twoDaysAgo=true'),
+                    pastData : axios.get('https://disease.sh/v3/covid-19/historical?lastdays=all')
                 }
     
                 // the object created above is used to send the different request all together which is done below using all() of axios
