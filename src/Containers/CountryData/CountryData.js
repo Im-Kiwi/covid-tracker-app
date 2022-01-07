@@ -12,8 +12,8 @@ const CountryData = props => {
 
     const { name } = useParams()
 
-    const url = `https://corona.lmao.ninja/v2/countries/${name}`
-    const secondURL = `https://corona.lmao.ninja/v2/historical/${name}?lastdays=all`
+    const url = `https://disease.sh/v3/covid-19/countries/${name}`
+    const secondURL = `https://disease.sh/v3/covid-19/historical/${name}?lastdays=all`
 
     const [
         todayData,
