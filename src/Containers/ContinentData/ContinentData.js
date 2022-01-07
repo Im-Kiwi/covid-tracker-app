@@ -11,7 +11,7 @@ const ContinentData = props => {
     // this is use to fetch the name of the continent from the url
     const { name : continentName } = useParams()
     
-    const url  = `https://corona.lmao.ninja/v2/continents/${continentName}`
+    const url  = `https://disease.sh/v3/covid-19/continents/${continentName}`
 
     // used custom hook to send request and recieving response from the server
     const [todayData, yesterdayData, twoDaysAgoData, loading, isError] = useFetchData(url, null, false)
