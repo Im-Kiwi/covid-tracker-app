@@ -70,7 +70,7 @@ export const monthlyDataset = (datesArray, cases) => {
         {id : '11', month : 'Nov'},
         {id : '12', month : 'Dec'}
     ]
-    const years = ['20', '21']
+    const years = ['20', '21', '22']
 
     // to add new year in the years array
 //     const currentYear = new Date().getFullYear().toString()
